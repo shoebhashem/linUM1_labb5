@@ -22,9 +22,9 @@ $(BINARY): $(OBJECTS)
 clean:
 	rm *.o *.d program1
 install:
-	sudo cp program1 /opt/
+	sudo cp program1 /usr/local/
 uninstall:
-	sudo rm /opt/program1
+	sudo rm /usr/local/program1
 
 $(DEPFILES):
 
